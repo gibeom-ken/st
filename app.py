@@ -18,6 +18,8 @@ st.subheader("엑셀")
 def load_data(data):
     return pd.read_excel(data)
 
+
+
 def main():
     st.title("Partner Data Solution팀 솔루션 매출 현황판")
     st.subheader("Nimo에서 다운받은 파일을 업로드해주세요.")
